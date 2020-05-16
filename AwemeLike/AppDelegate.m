@@ -19,11 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[FaceDetector shareInstance] auth];
     
-    UIStoryboard *sd = [UIStoryboard storyboardWithName:@"Aweme" bundle:nil] ;
-    UIViewController *rootVc = [sd instantiateViewControllerWithIdentifier:@"HPCameraCaptureViewController"];
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = rootVc;
-    [self.window makeKeyAndVisible];
+    //UIStoryboard *sd = [UIStoryboard storyboardWithName:@"Aweme" bundle:nil] ;
+    //UIViewController *rootVc = [sd instantiateViewControllerWithIdentifier:@"HPCameraCaptureViewController"];
+    //self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //self.window.rootViewController = rootVc;
+    //[self.window makeKeyAndVisible];
     return YES;
 }
 
